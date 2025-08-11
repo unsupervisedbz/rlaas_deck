@@ -399,7 +399,7 @@ const MilestonesSection = () => (
             <p className="text-sm font-semibold text-blue-400">Phase 1 (~3 Months)</p>
             <h3 className="text-xl font-bold text-white mt-1">Seed Phase</h3>
             <p className="text-gray-400 mt-2">Build the core RewardHack AI platform and benchmark its performance against all major alternatives.</p>
-            <p className="text-gray-300 mt-3 font-semibold">Success: Prove competitive advantage in training speed.</p>
+            <p className="text-gray-300 mt-3 font-semibold">Success: Prove competitive advantage in training speed, agent & environment customizability, and <span className="text-green-400">real delta value-add</span> for business KPIs.</p>
           </div>
         </li>
         <li className="pl-12 relative">
