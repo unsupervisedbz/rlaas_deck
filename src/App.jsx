@@ -437,7 +437,7 @@ const FinancialsSection = () => (
   <Section id="financials" className="bg-black/50">
     <SectionTitle
       subtitle="Financial Projections"
-      title="A Path to Market Leadership"
+      title="Projected Annual Revenue Growth (ARR)"
       description="Our projections are grounded in market comparables. Leading inference companies like Together.ai (projected $120M ARR) and Anyscale ($300M ARR) have validated the market size with 50+ enterprise customers each."
     />
     <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -515,12 +515,12 @@ const AskSection = () => (
   <Section id="ask" className="bg-blue-900/20">
     <SectionTitle
       subtitle="The Ask"
-      title="Join Us in the Seed Round"
+      title="Join Us in the Pre-seed Round"
       description="We are raising capital to fund our initial 3-month Seed Phase, deliver definitive benchmarks, and position RewardHack AI for successful customer acquisition."
     />
     <div className="flex justify-center mt-12">
         <div className="p-8 bg-gray-800 rounded-xl inline-block">
-            <p className="text-lg text-gray-300">Total Seed Round Ask</p>
+            <p className="text-lg text-gray-300">Total Pre-seed Round Ask</p>
             <p className="text-6xl font-extrabold text-white my-2">$615,000</p>
         </div>
     </div>
