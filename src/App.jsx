@@ -83,11 +83,11 @@ const ContextSection = () => (
           <div className="space-y-4">
             <div className="flex items-center">
               <svg className="h-6 w-6 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7.014A8.003 8.003 0 0117.657 18.657z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.879 16.121A3 3 0 1014.12 11.88l-4.242 4.242z"></path></svg>
-              <span className="text-lg text-white">Advanced Reasoning (o1, o3)</span>
+              <span className="text-lg text-white">Advanced Reasoning & Coding</span>
             </div>
             <div className="flex items-center">
               <svg className="h-6 w-6 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M12 21v-2.5m0 0l-2-1m2 1l2-1M4 7l2 1M4 7l2-1M4 7v2.5m16 4l-2-1m2 1l-2 1m-2-1V12m-2 6.5V12m0 0l-2-1m2 1l2-1"></path></svg>
-              <span className="text-lg text-white">Multi-Turn Interaction</span>
+              <span className="text-lg text-white">Multi-Turn, Multi-AgentInteraction</span>
             </div>
             <div className="flex items-center">
               <svg className="h-6 w-6 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m-9 9h18"></path></svg>
