@@ -78,7 +78,7 @@ const ContextSection = () => (
       </div>
       <div className="flex justify-center">
         <div className="p-8 rounded-xl kpi-card w-full max-w-md">
-          <h3 className="text-2xl font-bold text-white mb-4">The Shift to Agentic AI</h3>
+          <h3 className="text-2xl font-bold text-white mb-4">The Shift to Domain-specific Agentic AI</h3>
           <p className="text-gray-400 mb-6">The market is moving from passive models to active AI agents that interact with complex environments to solve real-world business problems.</p>
           <div className="space-y-4">
             <div className="flex items-center">
@@ -87,7 +87,7 @@ const ContextSection = () => (
             </div>
             <div className="flex items-center">
               <svg className="h-6 w-6 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M12 21v-2.5m0 0l-2-1m2 1l2-1M4 7l2 1M4 7l2-1M4 7v2.5m16 4l-2-1m2 1l-2 1m-2-1V12m-2 6.5V12m0 0l-2-1m2 1l2-1"></path></svg>
-              <span className="text-lg text-white">Multi-Turn, Multi-AgentInteraction</span>
+              <span className="text-lg text-white">Multi-Turn, Multi-Agent Interaction</span>
             </div>
             <div className="flex items-center">
               <svg className="h-6 w-6 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m-9 9h18"></path></svg>
@@ -142,8 +142,9 @@ const ProblemSection = () => (
                            <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                         </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-white tracking-tight">The Crippling Bottleneck: Training Speed</h3>
-                    <p className="mt-5 text-base text-gray-400">Training long-generation models can take <strong className="text-red-400">27-216 days per iteration (40 to 160 min per step) in the RL/RLHF stage</strong> with existing tools. This is simply unacceptable.</p>
+                    <h3 className="mt-8 text-lg font-medium text-white tracking-tight">The Crippling Bottleneck: Training Speed & Stability</h3>
+                    <p className="mt-5 text-base text-gray-400">Training long-generation models can take <strong className="text-red-400">27-216 days per iteration (40 to 160 min per step) in the RL/RLHF stage</strong> with existing solutions. This is simply unacceptable given the huge GPU costs. </p>
+                    <p className="mt-5 text-base text-gray-400">RLHF training are highly unstable and often require manual intervention (e.g. frequent model convergence issues, OOMs, discrepencies etc).</p>
                 </div>
             </div>
         </div>
@@ -245,19 +246,19 @@ const SolutionSection = () => (
             <div className="bg-red-900/20 border border-red-700 p-6 rounded-lg">
                 <h3 className="text-2xl font-bold text-white mb-4">Traditional RL is Hard</h3>
                 <ul className="space-y-3 text-lg text-gray-300">
-                    <li className="flex items-center">❌ Complex Infra</li>
+                    <li className="flex items-center">❌ Complex, Unstable Infra </li>
                     <li className="flex items-center">❌ Reward Tuning</li>
                     <li className="flex items-center">❌ Simulation Setups</li>
-                    <li className="flex items-center">❌ Costly Iteration Cycles</li>
+                    <li className="flex items-center">❌ Costly & Slow Training Iterations </li>
                 </ul>
             </div>
             <div className="bg-green-900/20 border border-green-700 p-6 rounded-lg">
                 <h3 className="text-2xl font-bold text-white mb-4">RLaaS Flips the Game</h3>
                  <ul className="space-y-3 text-lg text-gray-300">
                     <li className="flex items-center">✅ Pay-as-you-go</li>
-                    <li className="flex items-center">✅ Ready-to-train Agents</li>
+                    <li className="flex items-center">✅ Ready-to-train Agents in Your Specialized Environments </li>
                     <li className="flex items-center">✅ Deployment-ready APIs</li>
-                    <li className="flex items-center">✅ Faster Experimentation</li>
+                    <li className="flex items-center">✅ Top-notch Training Speed</li>
                 </ul>
             </div>
         </div>
