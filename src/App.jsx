@@ -72,7 +72,7 @@ const ContextSection = () => (
     <SectionTitle subtitle="The Market Opportunity" title="The AI Mandate is Here. RL is the Engine." />
     <div className="grid md:grid-cols-2 gap-8 items-center">
       <div className="prose prose-invert lg:prose-xl text-gray-300 space-y-6">
-        <p>The race to deploy meaningful AI is on. <strong className="text-white">83% of companies</strong> now state that AI is a top priority. While LLMs have captured the public imagination, the true frontier of enterprise value lies in <strong className="text-white">Reinforcement Learning (RL)</strong>.</p>
+        <p>The race to deploy meaningful AI is on. <strong className="text-yellow-400">83% of companies</strong> now state that AI is a top priority. While LLMs have captured the public imagination, the true frontier of enterprise value lies in <strong className="text-white">Reinforcement Learning (RL)</strong>.</p>
         <p>RL has evolved beyond simple model alignment (RLHF). Today, it's the key to unlocking new capabilities—like advanced reasoning and agentic behavior—in a world of increasingly scarce, high-quality training data. The recent trend and focus is on the power of intelligent, self-learning agents that can move beyond simple prediction to complex, goal-oriented action.</p>
         <p>This isn't a future trend; it's happening now. Industry leaders in robotics, finance, and manufacturing are already leveraging RL to gain a competitive edge. The demand for powerful, scalable, and secure RL solutions is about to explode.</p>
       </div>
@@ -159,34 +159,47 @@ const SolutionSection = () => (
       title="RewardHack AI: The RLaaS Platform for the Enterprise"
       description="We bring custom, high-performance agentic AI directly to the enterprise, empowering businesses to optimize critical workflows and achieve domain-specific KPIs."
     />
-    <div className="mt-12">
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="pt-6">
+          <div className="mt-12">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="pt-6">
             <div className="flow-root bg-gray-800/50 rounded-lg px-6 pb-8 h-full">
-                <div className="-mt-6">
-                    <div>
-                        <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
-                            <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c.621.202 1.25.405 1.887.622a21.74 21.74 0 017.243 4.095M9.75 3.104a21.74 21.74 0 00-7.243 4.095m14.486 0L14.25 14.5m5.086-6.282a21.72 21.72 0 01-7.243 4.095m7.243-4.095c.621.202 1.25.405 1.887.622m-1.887-.622a21.74 21.74 0 00-1.887-.622m0 0L14.25 14.5M3 14.5h18M3 14.5a2.25 2.25 0 00-2.25 2.25v1.5a2.25 2.25 0 002.25 2.25h18a2.25 2.25 0 002.25-2.25v-1.5a2.25 2.25 0 00-2.25-2.25H3z"></path></svg>
-                        </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-white tracking-tight">Tailored Environment & 100+ Training Gyms</h3>
-                    <p className="mt-5 text-base text-gray-400">Build custom environments integrating with your domain-specific tools. You own your proprietary simulations, tailoring every element to your unique needs and locking in strategic differentiation.</p>
+              <div className="-mt-6">
+                <div>
+                  <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                    <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                  </span>
                 </div>
+                <h3 className="mt-8 text-lg font-medium text-white tracking-tight">Radical Efficiency</h3>
+                <p className="mt-5 text-base text-gray-400">Our async framework is <strong className="text-green-400">4x faster</strong> for Llama 70B and <strong className="text-green-400">6x faster</strong> for 405B models than open-source baselines, slashing training times from months to days.</p>
+              </div>
             </div>
-        </div>
-        <div className="pt-6">
+          </div>
+                  <div className="pt-6">
             <div className="flow-root bg-gray-800/50 rounded-lg px-6 pb-8 h-full">
-                <div className="-mt-6">
-                    <div>
-                        <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
-                           <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"></path></svg>
-                        </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-white tracking-tight">Custom RL Pipeline</h3>
-                    <p className="mt-5 text-base text-gray-400">We support complex multi-step, multi-reward RL pipelines tailored to your domain, enabling agents to learn sophisticated, long-horizon tasks.</p>
+              <div className="-mt-6">
+                <div>
+                  <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                    <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c.621.202 1.25.405 1.887.622a21.74 21.74 0 017.243 4.095M9.75 3.104a21.74 21.74 0 00-7.243 4.095m14.486 0L14.25 14.5m5.086-6.282a21.72 21.72 0 01-7.243 4.095m7.243-4.095c.621.202 1.25.405 1.887.622m-1.887-.622a21.74 21.74 0 00-1.887-.622m0 0L14.25 14.5M3 14.5h18M3 14.5a2.25 2.25 0 00-2.25 2.25v1.5a2.25 2.25 0 002.25 2.25h18a2.25 2.25 0 002.25-2.25v-1.5a2.25 2.25 0 00-2.25-2.25H3z"></path></svg>
+                  </span>
                 </div>
+                <h3 className="mt-8 text-lg font-medium text-white tracking-tight">Tailored Environment & 100+ Training Gyms</h3>
+                <p className="mt-5 text-base text-gray-400">Build custom environments integrating with your domain-specific tools. You own your proprietary simulations, tailoring every element to your unique needs and locking in strategic differentiation.</p>
+              </div>
             </div>
-        </div>
+          </div>
+          <div className="pt-6">
+              <div className="flow-root bg-gray-800/50 rounded-lg px-6 pb-8 h-full">
+                  <div className="-mt-6">
+                      <div>
+                          <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                             <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"></path></svg>
+                          </span>
+                      </div>
+                      <h3 className="mt-8 text-lg font-medium text-white tracking-tight">Custom RL Pipeline</h3>
+                      <p className="mt-5 text-base text-gray-400">We support complex multi-step, multi-reward RL pipelines tailored to your domain, enabling agents to learn sophisticated, long-horizon tasks.</p>
+                  </div>
+              </div>
+          </div>
         <div className="pt-6">
             <div className="flow-root bg-gray-800/50 rounded-lg px-6 pb-8 h-full">
                 <div className="-mt-6">
@@ -200,19 +213,7 @@ const SolutionSection = () => (
                 </div>
             </div>
         </div>
-        <div className="pt-6">
-            <div className="flow-root bg-gray-800/50 rounded-lg px-6 pb-8 h-full">
-                <div className="-mt-6">
-                    <div>
-                        <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
-                            <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-white tracking-tight">Radical Efficiency</h3>
-                    <p className="mt-5 text-base text-gray-400">Our async framework is <strong className="text-green-400">4x faster</strong> for Llama 70B and <strong className="text-green-400">6x faster</strong> for 405B models than open-source baselines, slashing training times from months to days.</p>
-                </div>
-            </div>
-        </div>
+
         <div className="pt-6">
             <div className="flow-root bg-gray-800/50 rounded-lg px-6 pb-8 h-full">
                 <div className="-mt-6">
@@ -478,7 +479,7 @@ const FinancialsSection = () => (
         <h3 className="text-lg font-semibold text-white text-center mb-8">Projected Revenue Growth (Average ARR)</h3>
         <div className="bg-gray-800/50 p-6 rounded-lg h-96 relative">
           {/* Y-axis labels */}
-          <div className="absolute left-0 top-0 h-full flex flex-col justify-between text-xs text-gray-400">
+          <div className="absolute left-4 top-0 h-full flex flex-col justify-between text-xs text-gray-400">
             <span>$300M</span>
             <span>$250M</span>
             <span>$200M</span>
