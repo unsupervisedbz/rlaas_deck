@@ -143,7 +143,7 @@ const ProblemSection = () => (
                         </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-white tracking-tight">The Crippling Bottleneck: Training Speed & Stability</h3>
-                    <p className="mt-5 text-base text-gray-400">Training long-generation models can take <strong className="text-red-400">27-216 days per iteration (40 to 160 min per step) in the RL/RLHF stage</strong> with existing solutions. This is simply unacceptable given the huge GPU costs. </p>
+                    <p className="mt-5 text-base text-gray-400">Training long-generation models can take up to <strong className="text-red-400">27-216 days per iteration </strong> (40-160 min/step for larger models with 128K max generation length) in the RL stage with existing solutions. This is simply unacceptable given the huge GPU costs. </p>
                     <p className="mt-5 text-base text-gray-400">RLHF training are highly unstable and often require manual intervention (e.g. frequent model convergence issues, OOMs, discrepencies etc).</p>
                 </div>
             </div>
