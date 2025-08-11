@@ -366,8 +366,8 @@ const SuccessStoriesSection = () => (
     <Section id="success-stories" className="bg-black/50">
         <SectionTitle
             subtitle="Success Stories"
-            title="RL as a Service:Real-World Impact"
-            description="Our approach is already delivering early, transformative results for early adopters across multiple industries."
+            title="RL as a Service: Real-World Impact"
+            description="The RL-for-LLM approach is already delivering early, transformative results for early adopters across multiple industries."
         />
         <div className="flex justify-center">
             <div className="max-w-4xl bg-gray-800/50 rounded-lg p-10">
@@ -474,10 +474,11 @@ const FinancialsSection = () => (
         </table>
       </div>
       <div>
-        <h3 className="text-lg font-semibold text-white text-center mb-4">Projected Revenue Growth (Average ARR)</h3>
-        <div className="bg-gray-800/50 p-6 rounded-lg h-80 relative">
+        <h3 className="text-lg font-semibold text-white text-center mb-8">Projected Revenue Growth (Average ARR)</h3>
+        <div className="bg-gray-800/50 p-6 rounded-lg h-96 relative">
           {/* Y-axis labels */}
           <div className="absolute left-0 top-0 h-full flex flex-col justify-between text-xs text-gray-400">
+            <span>$300M</span>
             <span>$250M</span>
             <span>$200M</span>
             <span>$150M</span>
@@ -490,17 +491,17 @@ const FinancialsSection = () => (
           <div className="ml-16 h-full flex items-end justify-around space-x-8">
             <div className="flex flex-col items-center">
               <div className="text-white font-bold mb-2">$30M</div>
-              <div className="w-16 bg-white rounded-t-md" style={{ height: '36px' }}></div>
+              <div className="w-20 bg-yellow-400 rounded-t-md" style={{ height: '38px' }}></div>
               <div className="mt-2 text-sm text-gray-400">Year 1</div>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-white font-bold mb-2">$60M</div>
-              <div className="w-16 bg-white rounded-t-md" style={{ height: '72px' }}></div>
+              <div className="w-20 bg-yellow-400 rounded-t-md" style={{ height: '77px' }}></div>
               <div className="mt-2 text-sm text-gray-400">Year 2</div>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-white font-bold mb-2">$210M</div>
-              <div className="w-16 bg-white rounded-t-md" style={{ height: '252px' }}></div>
+              <div className="w-20 bg-yellow-400 rounded-t-md" style={{ height: '269px' }}></div>
               <div className="mt-2 text-sm text-gray-400">Year 3</div>
             </div>
           </div>
