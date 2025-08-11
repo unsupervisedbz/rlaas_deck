@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <!-- Main cube -->
+    <rect x="4" y="8" width="12" height="12" fill="#2563eb" stroke="#1d4ed8" stroke-width="1"/>
+
+    <!-- Top face -->
+    <path d="M4 8 L8 4 L20 4 L16 8 Z" fill="#3b82f6"/>
+
+    <!-- Right face -->
+    <path d="M16 8 L20 4 L20 16 L16 20 Z" fill="#1e40af"/>
+
+    <!-- Small accent cube -->
+    <rect x="18" y="18" width="8" height="8" fill="#60a5fa" stroke="#3b82f6" stroke-width="1"/>
+    <path d="M18 18 L20 16 L28 16 L26 18 Z" fill="#93c5fd"/>
+    <path d="M26 18 L28 16 L28 24 L26 26 Z" fill="#2563eb"/>
+</svg> 
