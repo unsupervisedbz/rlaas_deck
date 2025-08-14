@@ -440,7 +440,7 @@ const FinancialsSection = () => (
     <SectionTitle
       subtitle="Financial Projections"
       title="Projected Annual Revenue Growth (ARR)"
-      description="Our projections are grounded in market comparables. Leading inference companies like Together.ai (projected $120M ARR) and Anyscale ($300M ARR) have validated the market size with 50+ enterprise customers each."
+      description="Our projections are grounded in market comparables. Leading inference companies like Together.ai (projected $120M ARR, 3.3B valuation), Fireworks (projected $300M ARR, 4B valuation) and Anyscale ($300M ARR, 1B valuation) have validated the market size with 50+ enterprise customers each."
     />
     <div className="grid md:grid-cols-2 gap-12 items-center">
       <div className="overflow-x-auto">
