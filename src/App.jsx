@@ -470,7 +470,7 @@ const FinancialsSection = () => (
               <td className="px-6 py-4 font-medium text-white whitespace-nowrap">Year 3</td>
               <td className="px-6 py-4">Scaling</td>
               <td className="px-6 py-4">50 - 100</td>
-              <td className="px-6 py-4">$210M (Average)</td>
+              <td className="px-6 py-4">$400M (Average)</td>
             </tr>
           </tbody>
         </table>
